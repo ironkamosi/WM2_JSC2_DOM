@@ -18,8 +18,7 @@ let div = document.getElementById("content");
 // displayArticle(articles[0]);
 // articles.forEach(displayArticle);
 
-// activity 9 
-
+// activity 9
 function displayArticle(article) {
   let div = document.getElementById("content");
   let header = document.getElementById("title");
@@ -34,14 +33,14 @@ function displayArticle(article) {
 }
 
 function newsPager() {
-   let prev = document.createElement("button");
+  let prev = document.createElement("button");
   prev.innerText = "Previous";
-  div.appendChild(prev); 
- 
+  div.appendChild(prev);
+
   let next = document.createElement("button");
   next.innerText = "Next";
   div.appendChild(next);
- 
+
   let h2 = document.createElement("h2");
   h2.id = "title";
   let img = document.createElement("img");
@@ -62,19 +61,14 @@ function newsPager() {
       newsIndex = 0;
     }
   };
-  
-   prev.onclick = function () {
-     newsIndex = newsIndex - 1;
-     displayArticle(articles[newsIndex]);
-     if (newsIndex === 0) {
-       newsIndex = articles.length-1;
-     }
-    console.log(newsIndex)
 
-   };
-
-  
-  
-  
+  prev.onclick = function () {
+    newsIndex = newsIndex - 1;
+    displayArticle(articles[newsIndex]);
+    if (newsIndex === 0) {
+      newsIndex = articles.length - 1;
+    }
+    console.log(newsIndex);
+  };
 }
 newsPager();

@@ -1,5 +1,12 @@
-Notes for activity 5
+------Guide-----
+Activity 5 is in file Answers_activity_1.js.
+To see Activity 5 change the name of the script of the bottom html file.
 
+Activity 7,8 and 9 are in file Answers.js.
+Scratch pad contains ideas for Activity 7,8 and 9.
+
+-----Notes--------
+Activity 
 Use the indexOf function to get the index in the string of the T.  something like:
 let s = '2010-06-21T08:30:00Z';  let idx = s.indexOf("T"); console.log(idx)
 2. then try to get everything before the T
