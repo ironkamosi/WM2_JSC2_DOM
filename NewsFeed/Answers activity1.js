@@ -1,6 +1,3 @@
-//global variable
-
-
 // task 5
 // let formattedDate = function (date) {
 //   let index = date.indexOf("T");
@@ -25,18 +22,4 @@
 //   div.appendChild(paragraph);
 // });
 
-// activity 7 and activity 8
-// function displayArticle(article) {
-//     let div = document.getElementById("content");
-//     let p = document.createElement('p');
-//     let img = document.createElement('img');
-//     let header = document.createElement('h2');
-//     header.innerText = article.title;
-//     div.appendChild(header);
-//     img.src = article.urlToImage;
-//     div.appendChild(img);
-//     p.innerText = article.description;
-//     div.appendChild(p);
-// }
-//  displayArticle(articles[0]);
-//  articles.forEach(displayArticle);
+

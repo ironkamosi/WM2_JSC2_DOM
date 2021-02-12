@@ -2,7 +2,7 @@
 let newsIndex = 0;
 let div = document.getElementById("content");
 
-// activity 7 and  8
+// activity 7 and activity 8
 // function displayArticle(article) {
 //   let div = document.getElementById("content")
 //   let header = document.getElementById("title")
